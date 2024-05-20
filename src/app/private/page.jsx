@@ -21,9 +21,9 @@ export default async function PrivatePage() {
     }
 
     return (
-        <div className=''>
+        <div className='flex'>
             <PrivateNavbar />
-            <div className='p-5'>
+            <div className='p-5 flex w-full gap-5'>
                 <h1 className='text-3xl tracking-tight font-bold'>Hello {user.user.email}</h1>
             </div>
         </div>
